@@ -6,13 +6,20 @@
 </head>
 <body>
     <label for="tree-height">How height you want your tree?</label>
-    <input type="text" name="tree-height">
+    <input type="text"
+           name="tree-height" 
+           onkeydown="onEnter(event)">
     <p></p>
     
     <label for="tree-char">Which character should I use to draw the tree?</label>
-    <input type="text" name="tree-char">
+    <input type="text" 
+           name="tree-char" 
+           onkeydown="onEnter(event)">
     <p></p>
-    <input type="button" name="submit" value="Grow your tree">
+    <input type="button"
+           name="submit" 
+           value="Grow your tree"
+           onclick="onClick()">
 
 
     <script type="text/javascript" src="./js/main.js"></script>
